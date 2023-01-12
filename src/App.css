@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.custom-bg-home {
+  background-image: url("./images/cover-jumbutron.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-font-color-navbar {
+  color: rgb(3 105 161) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-font-color-navbar {
+  color: black !important;
+  transition: 0s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-font-color-navbar:hover {
+  color: rgb(3 105 161) !important;
+  font-weight: bold;
+  transition: 0s;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-bg-color-footer {
+  background-color: rgb(12 74 110) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-z-index {
+  z-index: 100;
+}
+
+.custom-height-carousel {
+  height: 480px;
 }
