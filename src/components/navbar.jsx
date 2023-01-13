@@ -25,45 +25,45 @@ export default function NavbarMain() {
           </Link>
           <Navbar className="custom-font-color-navbar">
             <Dropdown label="Fitur" inline={true}>
-              <Link to={"/page-about"}>
+              <Link to={"/"}>
                 <Dropdown.Item className="custom-font-color-navbar">
                   Administrasi Desa
                 </Dropdown.Item>
               </Link>
-              <Link to={"/page-shop"}>
+              <Link to={"/"}>
                 <Dropdown.Item className="custom-font-color-navbar">
                   Pelayanan Desa
                 </Dropdown.Item>
               </Link>
-              <Link to={"/page-event"}>
+              <Link to={"/"}>
                 <Dropdown.Item className="custom-font-color-navbar">
                   Perpajakan (PBB-P2)
                 </Dropdown.Item>
               </Link>
-              <Link to={"/page-event"}>
+              <Link to={"/"}>
                 <Dropdown.Item className="custom-font-color-navbar">
                   Bantuan Sosial
                 </Dropdown.Item>
               </Link>
-              <Link to={"/page-event"}>
+              <Link to={"/"}>
                 <Dropdown.Item className="custom-font-color-navbar">
                   Website Profil
                 </Dropdown.Item>
               </Link>
-              <Link to={"/page-event"}>
+              <Link to={"/"}>
                 <Dropdown.Item className="custom-font-color-navbar">
                   Absensi & Buku Utama
                 </Dropdown.Item>
               </Link>
             </Dropdown>
           </Navbar>
-          <Link to={"/"}>
-            <Navbar to={"/"} className="custom-font-color-navbar">
+          <Link to={"/list-article"}>
+            <Navbar to={"/list-article"} className="custom-font-color-navbar">
               Artikel
             </Navbar>
           </Link>
-          <Link to={"/"}>
-            <Navbar to={"/"} className="custom-font-color-navbar">
+          <Link to={"/contact"}>
+            <Navbar to={"/contact"} className="custom-font-color-navbar">
               Kontak
             </Navbar>
           </Link>

@@ -5,6 +5,15 @@
   width: 100%;
 }
 
+.custom-bg-contact {
+  background-image: url("./images/cover-contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: saturate(50%); */
+  width: 100%;
+  height: 50vh;
+}
+
 .custom-font-color-navbar {
   color: rgb(3 105 161) !important;
 }

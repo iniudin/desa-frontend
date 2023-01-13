@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FooterMain from "../components/footer";
 import NavbarMain from "../components/navbar";
 import Benefit from "../pages/Home/benefit";
@@ -11,6 +11,10 @@ import Testimoni from "../pages/Home/testimoni";
 import User from "../pages/Home/user";
 
 export default function LandingPage() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <>
       <NavbarMain />
