@@ -10,11 +10,11 @@ export default function Testimoni() {
         </h1>
 
         <div className="flex justify-center items-center my-10 md:my-0">
-          <div className="h-96 md:custom-height-carousel w-3/4 sm:h-64 xl:h-80 2xl:h-96">
+          <div className="custom-h-carousel w-3/4 sm:h-64 xl:h-80 2xl:h-96">
             <Carousel>
               <div className="w-full">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="col-span-1">
+                  <div className="col-span-1 h-96">
                     <div className="w-full">
                       <Card imgSrc={require("../../images/image-6.jpg")}>
                         <h5 className="text-2xl text-center font-bold tracking-tight text-sky-700 dark:text-white">

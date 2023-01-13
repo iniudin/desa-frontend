@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.custom-h-carousel{
+  height: 500px;
+}
+
 .custom-bg-contact {
   background-image: url("./images/cover-contact.jpg");
   background-repeat: no-repeat;
